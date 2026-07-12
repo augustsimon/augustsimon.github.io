@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   my repository for art, music, and other stuff that i want to catalogue/catagorize/archive/etc.
 # twitter_username: username
 github_username: augustsimon
-minimal_mistakes_skin: sunrise
+minimal_mistakes_skin: dirt
 search: true
 
 # Build settings
@@ -66,9 +66,9 @@ author:
     - #label: "Twitter"
       #icon: "fab fa-fw fa-twitter-square"
       #url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+    - #label: "GitHub"
+      #icon: "fab fa-fw fa-github"
+      #url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/awguts/"
@@ -78,9 +78,9 @@ footer:
     -  #label: "Behance"
        #icon: "fab fa-fw fa-twitter-square"
        #url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/augustsimon"
+    - #label: "GitHub"
+      #icon: "fab fa-fw fa-github"
+      #url: "https://github.com/augustsimon"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/awguts/"
