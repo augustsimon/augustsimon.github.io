@@ -1,8 +1,8 @@
 ---
 permalink: /about/
-title: "About"
+title: "about"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Hey! My name is August, and I make a lot of small attempts into different forms of media. Even setting this website up has been a fun (but hard!!) challenge. I live in NY and I'm currently working on my master's in social work. I also graduated from SUNY Purchase in 2021 with a BA in art history. I love my 2 cats named Seymour and Calliope, shitty reality tv, systems theory, and egg everything bagels with scallion cream cheese.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+This site is a repository of art, music, and other stuff that I've made or worked on that I want to keep in the same space. Mostly for the sake of myself, being able to see everything in one space and learning how to use this new interface, also trying to do this in a way that avoids monthly fees or something. I hope you stay and take a look around, and feel free to drop me a line anytime.
