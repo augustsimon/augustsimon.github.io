@@ -1,7 +1,7 @@
 main:
 
   - title: "home"
-    url: /
+    url: /home/
   - title: "art"
     url: /art/
   - title: "music"
