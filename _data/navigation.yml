@@ -6,5 +6,7 @@ main:
     url: /art/
   - title: "music"
     url: /music/
+  - title: "other stuff"
+    url: /other/
   - title: "about"
     url: /about/
