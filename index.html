@@ -5,17 +5,19 @@ title: "oh hey! i'm august"
 excerpt: "this is my website for things i make. feel free to look around or drop me a line."
 header:
   overlay_image: /assets/images/lenas-universe.jpg
-  overlay_filter: 0.5       # Darkens the image (0.1 to 1.0) so your white text pops cleanly
+  overlay_filter: 0.5
   actions:
     - label: "i want to see"
       url: "/home/"
-
-style: |
-  .layout--splash .wrapper__hero--overlay {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
 ---
+
+<style>
+  /* Force the hero background to fill the entire screen */
+  .layout--splash .wrapper__hero--overlay {
+    min-height: 100vh !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+</style>
