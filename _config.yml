@@ -61,7 +61,7 @@ plugins:
 author:
   name   : "August Simon"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "welcome! i make art and music and other stuff."
+  bio    : "artist and musician and friend, based in new york."
   links:
     - #label: "Behance"
       #icon: "fas fa-fw fa-link"

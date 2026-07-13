@@ -1,12 +1,15 @@
 ---
 title: "home"
 permalink: /home/
-layout: collection
+layout: wide
 author_profile: true
 ---
 
-you can navigate thru categories using the links above ^. each one has different collections to explore.
+welcome! this is my repository for music, art, and other stuff that i want to keep track of. you can navigate thru categories using the links above ^. each one has different collections to explore.
 
+
+
+/* gallery scroll box
 <div class="scroll-gallery-container">
   <div class="scroll-gallery-track">
     <div class="scroll-slide"><img src="/assets/images/lenas-universe.jpg" alt="Lena's Universe"></div>
