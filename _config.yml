@@ -22,6 +22,9 @@ github_username: augustsimon
 skin: neon
 search: true
 
+atom_feed:
+  hide: true
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
