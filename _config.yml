@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   my repository for art, music, and other stuff that i want to catalogue/catagorize/archive/etc.
 # twitter_username: username
 github_username: augustsimon
-skin: dirt
+skin: neon
 search: true
 
 # Build settings
