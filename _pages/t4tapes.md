@@ -1,8 +1,14 @@
 ---
+layout: single
+classes: wide
 permalink: /t4tapes/
 title: "t4tapes"
+author_profile: false # Optional: Set to false if you want the media to take up even more screen width
 ---
+t4tapes is a tape cassette compilation recorded by and for trans people. we recorded straight to tape in our friends' basement in bushwick, ny, and mixed, mastered, duplicated, and distributed in-house. we recorded 12 bands or solo artists on volume 1, and 22 on volume 2.
 
-hey! my name is august, and i make a lot of small attempts into different forms of media. i live in ny and i'm currently working on my master's in social work. i also graduated from suny purchase in 2021 with a ba in art history. i love my 2 cats named seymour and calliope, cartoons, systems framework, and egg everything bagels with scallion cream cheese. i'm queer + trans and use they/them pronouns
+our two missions in this were to:
+1. give recording access to musicians that might not have had it otherwise. recording space in nyc can be financially prohibitive, we wanted to let as many people in on it as we could. we also gave a bunch of free tapes to each band, to sell as merch and hopefully offset future band expenses. we wanted to show people how accessible this type of recording is, destigmatizing "shitty recording quality" and how that can perpetuate into shame about posting unpolished works. we could only record one solid take, and leaned into the imperfections. you can do the same thing at home with a voice memo! just post your song just post it :)
+2. archive and catalogue trans voices in the nyc area, at this specific point in time. there is a really important integration of punk and folk and advocacy/activism happening in the queerpunk scene, especially in the midst of fascism and debilitating disease. it's important to us that we preserved our art in a physical way that isn't reliant on digital media conglomerates affording/remembering to pay their digital lease, or revoke access to our own art because of a shift in power. but instead we want to have it in a form we can hold and bring with us and show to each other for a long time.
 
-this site is a repository of art, music, and other stuff that i've made or worked on that i want to keep in the same space. mostly for the sake of myself, being able to see everything in one space and learning how to use this new interface, also trying to do this in a way that avoids monthly fees or something. i hope you stay and take a look around, and feel free to drop me a line anytime.
+i feel very proud to be a part of this project! we all did a little bit of everything, but i focused on the graphic design.
