@@ -10,7 +10,7 @@ below, you can find my visual art divided into categories
 
 <div class="collection-button-container">
 
-  <a href="/t4tapes/" class="collection-btn" style="background-image: url('/assets/images/t4tzine-4-5.png');">
+  <a href="/t4tapes/" class="collection-btn" style="background-image: url('/assets/images/t4t2-jcard-side-b.jpeg');">
     <div class="collection-text-wrapper">
       <h2 class="collection-title">T4Tapes</h2>
       <p class="collection-desc">cassette compilation recorded straight to tape by and for trans ppl</p>
@@ -77,9 +77,9 @@ Feel free to drop me a line if you have questions about commission work or print
 .collection-button-container {
   display: flex;
   flex-direction: column;
-  gap: 1.5em; /* Space between each collection banner */
+  gap: 1.0em; /* Space between each collection banner */
   width: 100%;
-  margin: 2em 0;
+  margin: 2.0em 0;
 }
 
 /* 2. Large banner buttons */
@@ -88,7 +88,7 @@ Feel free to drop me a line if you have questions about commission work or print
   justify-content: flex-start; /* Aligns text wrapper to the left side */
   align-items: center; /* Centers text vertically */
   text-decoration: none !important; /* Disables standard link underlines */
-  height: 350px; /* ⬅️ Adjust this to make the banners taller or shorter */
+  height: 300px; /* ⬅️ Adjust this to make the banners taller or shorter */
   width: 100%;
   
   background-size: cover;
@@ -107,7 +107,7 @@ Feel free to drop me a line if you have questions about commission work or print
   position: absolute;
   top: 0; left: 0;
   width: 100%; height: 100%;
-  background: rgba(0, 0, 0, 0.45); /* Adjust opacity (0.1 to 1.0) */
+  background: rgba(0, 0, 0, 0.50); /* Adjust opacity (0.1 to 1.0) */
   z-index: 1;
   transition: background 0.25s ease;
 }
