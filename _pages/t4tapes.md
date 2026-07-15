@@ -27,8 +27,8 @@ i feel very proud to be a part of this project! we all did a little bit of every
 
   <div class="media-column player-side">
     <p class="project-desc">we made this!</p>
-    <!-- Width/Height removed here so the CSS can control them dynamically -->
-    <iframe class="bandcamp-embed" src="https://bandcamp.com/EmbeddedPlayer/album=281724953/size=large/bgcol=333333/linkcol=fe7eaf/transparent=true/" seamless>
+    <!-- Updated src with artwork=small -->
+    <iframe class="bandcamp-embed" src="https://bandcamp.com/EmbeddedPlayer/album=281724953/size=large/bgcol=333333/linkcol=fe7eaf/artwork=small/transparent=true/" seamless>
       <a href="https://t4tapes.bandcamp.com/album/t4tapes-basement-sessions">T4Tapes: Basement Sessions by T4Tapes</a>
     </iframe>
   </div>
@@ -41,7 +41,8 @@ i feel very proud to be a part of this project! we all did a little bit of every
   
   <div class="media-column player-side">
     <p class="project-desc">description of vol 2</p>
-    <iframe class="bandcamp-embed" src="https://bandcamp.com/EmbeddedPlayer/album=281724953/size=large/bgcol=333333/linkcol=fe7eaf/artwork=none/transparent=true/" seamless>
+    <!-- Updated src with artwork=small -->
+    <iframe class="bandcamp-embed" src="https://bandcamp.com/EmbeddedPlayer/album=281724953/size=large/bgcol=333333/linkcol=fe7eaf/artwork=small/transparent=true/" seamless>
     </iframe>
   </div>
 
@@ -83,7 +84,7 @@ i feel very proud to be a part of this project! we all did a little bit of every
     display: flex;
     flex-direction: row;
     gap: 3rem; /* Space between columns */
-    align-items: stretch; /* ⬅️ Crucial: Makes both columns the exact same height */
+    align-items: flex-start; /* ⬅️ Changed to flex-start so images don't stretch */
     width: 100%;
     margin-bottom: 5rem; /* Generous gap before the next Volume */
   }
@@ -131,12 +132,11 @@ i feel very proud to be a part of this project! we all did a little bit of every
     margin-bottom: 1.5rem !important;
   }
 
-  /* Dynamic Height Bandcamp Embed styling */
+  /* Fixed Height Bandcamp Embed styling to display Art + Tracklist */
   .bandcamp-embed {
     border: 0;
     width: 100%;
-    flex-grow: 1; /* ⬅️ Tells the iframe to stretch and fill the remaining height */
-    min-height: 350px; /* Fallback baseline */
+    height: 700px !important; /* ⬅️ Gives 700px height to fit both art and scrollable tracklist */
   }
 
   /* --- MOBILE RESPONSIVE TWEAKS --- */
@@ -152,7 +152,7 @@ i feel very proud to be a part of this project! we all did a little bit of every
     }
 
     .bandcamp-embed {
-      height: 450px; /* Fixed height on mobile so it doesn't collapse */
+      height: 600px !important; /* Slightly shorter, compact height for mobile screens */
     }
     
     /* Order fix for Volume 2 on mobile: image sits on top of player */
