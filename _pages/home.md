@@ -11,20 +11,20 @@ welcome! this is my repository for music, art, and other stuff that i want to ke
 <!-- gallery scroll box -->
 <div class="scroll-gallery-container">
   <div class="scroll-gallery-track">
-    <div class="scroll-slide"><img src="/assets/images/lenas-universe.jpg" alt="Lena's Universe"></div>
-    <div class="scroll-slide"><img src="/assets/images/sleepyinthemeadow.jpeg" alt="Sleepy in the Meadow"></div>
-    <div class="scroll-slide"><img src="/assets/images/salome-norah.png" alt="The Trickster"></div>
-    <div class="scroll-slide"><img src="/assets/images/Pupsaroundtheworld.png" alt="Pups Around the World"></div>
+    <div class="scroll-slide"><img src="/assets/images/digitalart/lenas-universe.jpg" alt="Lena's Universe"></div>
+    <div class="scroll-slide"><img src="/assets/images/digitalart/sleepyinthemeadow.jpeg" alt="Sleepy in the Meadow"></div>
+    <div class="scroll-slide"><img src="/assets/images/digitalart/salome-norah.png" alt="The Trickster"></div>
+    <div class="scroll-slide"><img src="/assets/images/digitalart/Pupsaroundtheworld.png" alt="Pups Around the World"></div>
     
-    <div class="scroll-slide"><img src="/assets/images/lenas-universe.jpg" alt="Lena's Universe"></div>
-    <div class="scroll-slide"><img src="/assets/images/sleepyinthemeadow.jpeg" alt="Sleepy in the Meadow"></div>
-    <div class="scroll-slide"><img src="/assets/images/salome-norah.png" alt="The Trickster"></div>
-    <div class="scroll-slide"><img src="/assets/images/Pupsaroundtheworld.png" alt="Pups Around the World"></div>
+    <div class="scroll-slide"><img src="/assets/images/digitalart/lenas-universe.jpg" alt="Lena's Universe"></div>
+    <div class="scroll-slide"><img src="/assets/images/digitalart/sleepyinthemeadow.jpeg" alt="Sleepy in the Meadow"></div>
+    <div class="scroll-slide"><img src="/assets/images/digitalart/salome-norah.png" alt="The Trickster"></div>
+    <div class="scroll-slide"><img src="/assets/images/digitalart/Pupsaroundtheworld.png" alt="Pups Around the World"></div>
 
-    <div class="scroll-slide"><img src="/assets/images/lenas-universe.jpg" alt="Lena's Universe"></div>
-    <div class="scroll-slide"><img src="/assets/images/sleepyinthemeadow.jpeg" alt="Sleepy in the Meadow"></div>
-    <div class="scroll-slide"><img src="/assets/images/salome-norah.png" alt="The Trickster"></div>
-    <div class="scroll-slide"><img src="/assets/images/Pupsaroundtheworld.png" alt="Pups Around the World"></div>
+    <div class="scroll-slide"><img src="/assets/images/digitalart/lenas-universe.jpg" alt="Lena's Universe"></div>
+    <div class="scroll-slide"><img src="/assets/images/digitalart/sleepyinthemeadow.jpeg" alt="Sleepy in the Meadow"></div>
+    <div class="scroll-slide"><img src="/assets/images/digitalart/salome-norah.png" alt="The Trickster"></div>
+    <div class="scroll-slide"><img src="/assets/images/digitalart/Pupsaroundtheworld.png" alt="Pups Around the World"></div>
   </div>
 </div>
 

@@ -6,60 +6,60 @@ title: "art"
 author_profile: true
 ---
 
-below, you can find my visual art divided into categories
+down here, you can find my visual art divided into either specific projects or broader categories
 
 <div class="collection-button-container">
 
-  <a href="/t4tapes/" class="collection-btn" style="background-image: url('/assets/images/t4t2-jcard-side-b.jpeg');">
+  <a href="/t4tapes/" class="collection-btn" style="background-image: url('/assets/images/t4tapes/t4t2-jcard-side-b.jpeg');">
     <div class="collection-text-wrapper">
       <h2 class="collection-title">T4Tapes</h2>
       <p class="collection-desc">cassette compilation recorded straight to tape by and for trans ppl</p>
     </div>
   </a>
 
-  <a href="/posters/" class="collection-btn" style="background-image: url('/assets/images/avataredenflyer.png');">
+  <a href="/posters/" class="collection-btn" style="background-image: url('/assets/images/posters/avataredenflyer.png');">
     <div class="collection-text-wrapper">
       <h2 class="collection-title">posters</h2>
       <p class="collection-desc">past efforts to get you to come to the gig</p>
     </div>
   </a>
 
-  <a href="/physicalmedia/" class="collection-btn" style="background-image: url('/assets/images/cherryjcard.PNG');">
+  <a href="/physicalmedia/" class="collection-btn" style="background-image: url('/assets/images/physicalmedia/cherryjcard.PNG');">
     <div class="collection-text-wrapper">
       <h2 class="collection-title">physical music media</h2>
       <p class="collection-desc">zines, j-cards, t-shirt designs, and other things that were designed with the intention to hold</p>
     </div>
   </a> 
   
-   <a href="/digitalart/" class="collection-btn" style="background-image: url('/assets/images/lenas-universe.jpg');">
+   <a href="/digitalart/" class="collection-btn" style="background-image: url('/assets/images/digitalart/lenas-universe.jpg');">
     <div class="collection-text-wrapper">
       <h2 class="collection-title">digital art</h2>
       <p class="collection-desc">art i made on a small computer</p>
     </div>
   </a>
 
-  <a href="/traditionalart/" class="collection-btn" style="background-image: url('/assets/images/spiritcircle.png');">
+  <a href="/traditionalart/" class="collection-btn" style="background-image: url('/assets/images/traditionalart/spiritcircle.png');">
     <div class="collection-text-wrapper">
       <h2 class="collection-title">traditional art</h2>
       <p class="collection-desc">art made on paper with physical materials</p>
     </div>
   </a>
 
-  <a href="/logosncovers/" class="collection-btn" style="background-image: url('/assets/images/crushfundpink.png');">
+  <a href="/logosncovers/" class="collection-btn" style="background-image: url('/assets/images/logosncovers/crushfundpink.png');">
     <div class="collection-text-wrapper">
       <h2 class="collection-title">logos & album covers</h2>
       <p class="collection-desc">branding-adjacent work for local bands</p>
     </div>
   </a>
 
-  <a href="/gallim/" class="collection-btn" style="background-image: url('/assets/images/gallimspread1.png');">
+  <a href="/gallim/" class="collection-btn" style="background-image: url('/assets/images/gallim/gallimspread1.png');">
     <div class="collection-text-wrapper">
       <h2 class="collection-title">GALLIM Dance Company</h2>
       <p class="collection-desc">my work with GALLIM, a nonprofit dance company</p>
     </div>
   </a>
 
-  <a href="/lgbtnetwork/" class="collection-btn" style="background-image: url('/assets/images/tgncconnect.jpg');">
+  <a href="/lgbtnetwork/" class="collection-btn" style="background-image: url('/assets/images/lgbtnetwork/tgncconnect.jpg');">
     <div class="collection-text-wrapper">
       <h2 class="collection-title">The LGBT Network</h2>
       <p class="collection-desc">some graphics i made during my internship with them</p>
@@ -67,9 +67,6 @@ below, you can find my visual art divided into categories
   </a>
 
 </div>
-
-### Other Projects & Sketches
-Feel free to drop me a line if you have questions about commission work or prints.
 
 
 <style>
