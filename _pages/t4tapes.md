@@ -19,7 +19,7 @@ i feel very proud to be a part of this project! we all did a little bit of every
 <div class="media-row">
   
   <div class="media-column image-side">
-    <img src="/assets/images/t4t1-tapelabel.png" alt="t4tapes vol 1 tape label" class="portfolio-media-img">
+    <img src="/assets/images/t4tapes/t4t1-tapelabel.png" alt="t4tapes vol 1 tape label" class="portfolio-media-img">
     <p class="caption">stickers i made to label side a and b of the tapes, with artist names</p>
   </div>
 
@@ -45,7 +45,7 @@ i feel very proud to be a part of this project! we all did a little bit of every
   </div>
 
   <div class="media-column image-side">
-    <img src="/assets/images/sleepyinthemeadow.jpeg" alt="t4tapes Volume 2 Cover Art" class="portfolio-media-img">
+    <img src="/assets/images/digitalart/sleepyinthemeadow.jpeg" alt="t4tapes Volume 2 Cover Art" class="portfolio-media-img">
     <p class="caption">vol 2 description</p>
   </div>
 
