@@ -16,6 +16,8 @@ i feel very proud to be a part of this project! we all did a little bit of every
 
 ---
 
+## Volume I
+
 <div class="media-row">
   
   <div class="media-column image-side">
@@ -24,23 +26,22 @@ i feel very proud to be a part of this project! we all did a little bit of every
   </div>
 
   <div class="media-column player-side">
-    <h2>Volume I</h2>
-    <p>we made this!</p>
-    
-   <iframe style="border: 0; width: 700px; height: 1136px;" src="https://bandcamp.com/EmbeddedPlayer/album=281724953/size=large/bgcol=333333/linkcol=fe7eaf/transparent=true/" seamless><a href="https://t4tapes.bandcamp.com/album/t4tapes-basement-sessions">T4Tapes: Basement Sessions by T4Tapes</a></iframe>
+    <p class="project-desc">we made this!</p>
+    <!-- Width/Height removed here so the CSS can control them dynamically -->
+    <iframe class="bandcamp-embed" src="https://bandcamp.com/EmbeddedPlayer/album=281724953/size=large/bgcol=333333/linkcol=fe7eaf/transparent=true/" seamless>
+      <a href="https://t4tapes.bandcamp.com/album/t4tapes-basement-sessions">T4Tapes: Basement Sessions by T4Tapes</a>
+    </iframe>
   </div>
 
 </div>
 
+## Volume II
+
 <div class="media-row">
   
   <div class="media-column player-side">
-    <h2>Volume II</h2>
-    <p>description of vol 2</p>
-    
-    <iframe style="border: 0; width: 100%; height: 450px;" 
-            src="https://bandcamp.com/EmbeddedPlayer/album=281724953/size=large/bgcol=333333/linkcol=fe7eaf/artwork=none/transparent=true/" 
-            seamless>
+    <p class="project-desc">description of vol 2</p>
+    <iframe class="bandcamp-embed" src="https://bandcamp.com/EmbeddedPlayer/album=281724953/size=large/bgcol=333333/linkcol=fe7eaf/artwork=none/transparent=true/" seamless>
     </iframe>
   </div>
 
@@ -68,19 +69,34 @@ i feel very proud to be a part of this project! we all did a little bit of every
     }
   }
 
+  /* --- SECTION HEADINGS --- */
+  h2 {
+    font-size: 2.2rem !important;
+    margin-top: 3rem !important;
+    margin-bottom: 1.5rem !important;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+  }
+
   /* --- MULTIMEDIA SPLIT ROW SYSTEM --- */
   .media-row {
     display: flex;
     flex-direction: row;
     gap: 3rem; /* Space between columns */
-    align-items: flex-start; /* Aligns items to the top of the row */
+    align-items: stretch; /* ⬅️ Crucial: Makes both columns the exact same height */
     width: 100%;
-    margin: 4rem 0; /* Clear distinction between Vol I and Vol II */
+    margin-bottom: 5rem; /* Generous gap before the next Volume */
   }
 
   .media-column {
     flex: 1; /* Splits space 50/50 */
     min-width: 0;
+  }
+
+  /* Image Column Layout */
+  .image-side {
+    display: flex;
+    flex-direction: column;
   }
 
   /* Portfolio Image styling */
@@ -89,6 +105,7 @@ i feel very proud to be a part of this project! we all did a little bit of every
     height: auto;
     border-radius: 6px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    object-fit: cover; /* Keeps image proportions clean */
   }
 
   /* Captions for photos */
@@ -100,39 +117,48 @@ i feel very proud to be a part of this project! we all did a little bit of every
     line-height: 1.4;
   }
 
-  /* Adjust header margins inside the rows */
-  .player-side h2 {
-    margin-top: 0 !important;
-    font-size: 2.2rem;
-    margin-bottom: 0.8rem;
+  /* Player Column Layout */
+  .player-side {
+    display: flex;
+    flex-direction: column; /* Stacks description and player vertically */
+    height: 100%;
   }
 
-  .player-side p {
+  .project-desc {
     font-size: 1.1rem;
     line-height: 1.6;
-    margin-bottom: 1.5rem;
+    margin-top: 0 !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  /* Dynamic Height Bandcamp Embed styling */
+  .bandcamp-embed {
+    border: 0;
+    width: 100%;
+    flex-grow: 1; /* ⬅️ Tells the iframe to stretch and fill the remaining height */
+    min-height: 350px; /* Fallback baseline */
   }
 
   /* --- MOBILE RESPONSIVE TWEAKS --- */
   @media (max-width: 900px) {
     .media-row {
-      flex-direction: column !important; /* Forces columns to stack vertically on smaller screens */
+      flex-direction: column !important; /* Stacks vertically on mobile */
       gap: 2rem;
+      align-items: initial; /* Resets height stretch on mobile */
     }
     
     .media-column {
       width: 100%;
     }
-    
-    /* On mobile, make sure the image always stacks on top of its respective player */
-    .media-row {
-      display: flex;
-      flex-direction: column;
+
+    .bandcamp-embed {
+      height: 450px; /* Fixed height on mobile so it doesn't collapse */
     }
     
-    /* Ensure the player side gets some margin when stacked */
-    .player-side h2 {
-      margin-top: 1rem !important;
+    /* Order fix for Volume 2 on mobile: image sits on top of player */
+    .media-row:of-type(2) {
+      display: flex;
+      flex-direction: column-reverse !important;
     }
   }
 </style>
