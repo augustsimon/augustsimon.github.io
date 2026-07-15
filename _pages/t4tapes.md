@@ -16,10 +16,10 @@ i feel very proud to be a part of this project! we all did a little bit of every
 
 ---
 
-## Volume I
+## volume I
 ### recorded winter 2022-spring 2023, released may 2023
 
-<div class="media-row">
+<div class="media-row" id="row-vol1">
   
   <!-- Left Column: Webplayer -->
   <div class="media-column player-side">
@@ -56,7 +56,7 @@ i feel very proud to be a part of this project! we all did a little bit of every
 ## Volume II
 ### recorded winter 2023-spring 2024, released may 2024
 
-<div class="media-row">
+<div class="media-row" id="row-vol2">
   
   <!-- Left Column: Image -->
   <div class="media-column image-side">
@@ -66,7 +66,8 @@ i feel very proud to be a part of this project! we all did a little bit of every
 
   <!-- Right Column: Webplayer -->
   <div class="media-column player-side">
-    <iframe class="bandcamp-embed vol2-player" src="https://bandcamp.com/EmbeddedPlayer/album=281724953/size=large/bgcol=333333/linkcol=fe7eaf/artwork=small/transparent=true/" seamless>
+    <iframe class="bandcamp-embed vol2-player" src="https://bandcamp.com/EmbeddedPlayer/album=4019474630/size=large/bgcol=333333/linkcol=fe7eaf/artwork=small/transparent=true/" seamless>
+      <a href="https://t4tapes.bandcamp.com/album/t4tapes-volume-ii">T4Tapes: Volume II by T4Tapes</a>
     </iframe>
     <p class="caption">brief description or design detail for volume 2 artwork, print templates, or packaging inserts.</p>
   </div>
@@ -159,13 +160,14 @@ i feel very proud to be a part of this project! we all did a little bit of every
     width: 100%;
   }
 
-  /* Specific player heights to avoid scrolling */
+  /* Height adjusted to fit full 12 tracks without scrolling */
   .vol1-player {
-    height: 750px !important; /* Fits 12 tracks cleanly */
+    height: 800px !important; 
   }
 
+  /* Height adjusted to fit full 22 tracks without scrolling */
   .vol2-player {
-    height: 1100px !important; /* Fits all 22 tracks cleanly */
+    height: 1200px !important; 
   }
 
   /* --- 2x2 IMAGE GRID --- */
@@ -206,14 +208,20 @@ i feel very proud to be a part of this project! we all did a little bit of every
       width: 100%;
     }
 
-    /* Stack image on top of players on mobile */
-    .media-row {
+    /* Vol 1 mobile layout: Webplayer stacks on top of the Tape sticker */
+    #row-vol1 {
+      display: flex;
+      flex-direction: column !important;
+    }
+
+    /* Vol 2 mobile layout: Cover image stacks on top of Webplayer */
+    #row-vol2 {
       display: flex;
       flex-direction: column-reverse !important;
     }
 
     .vol1-player, .vol2-player {
-      height: 600px !important; /* Restricts the huge heights on narrow mobile views */
+      height: 600px !important; /* Restricts excessive height on mobile screens */
     }
 
     .image-grid-2x2 {
