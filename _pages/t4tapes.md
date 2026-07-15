@@ -12,3 +12,23 @@ our two missions in this were to:
 2. archive and catalogue trans voices in the nyc area, at this specific point in time. there is a really important integration of punk and folk and advocacy/activism happening in the queerpunk scene, especially in the midst of fascism and debilitating disease. it's important to us that we preserved our art in a physical way that isn't reliant on digital media conglomerates affording/remembering to pay their digital lease, or revoke access to our own art because of a shift in power. but instead we want to have it in a form we can hold and bring with us and show to each other for a long time.
 
 i feel very proud to be a part of this project! we all did a little bit of everything, but i focused on the graphic design.
+
+
+<style>
+  /* Remove the left margin spacer and let the content align to the left */
+  @media (min-width: 64em) {
+    .archive, .page {
+      width: 100% !important;
+      padding-left: 5% !important;  /* ⬅️ Safe spacing on the left */
+      padding-right: 5% !important; /* ⬅️ Safe spacing on the right */
+      margin-right: 0 !important;
+      float: left !important; 
+    }
+
+    /* Expands the main content area to utilize the newly opened space */
+    .page__content {
+      width: 100% !important;
+      max-width: 100% !important;
+    }
+  }
+</style>
