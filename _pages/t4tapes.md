@@ -19,19 +19,15 @@ i feel very proud to be a part of this project! we all did a little bit of every
 <div class="media-row">
   
   <div class="media-column image-side">
-    <img src="/assets/images/t4tapes-vol1-cover.jpg" alt="t4tapes Volume 1 Cover Art" class="portfolio-media-img">
-    <p class="caption">description of the image</p>
+    <img src="/assets/images/t4t1-tapelabel.png" alt="t4tapes vol 1 tape label" class="portfolio-media-img">
+    <p class="caption">stickers i made to label side a and b of the tapes, with artist names</p>
   </div>
 
   <div class="media-column player-side">
     <h2>Volume I</h2>
-    <p>description of the project</p>
+    <p>we made this!</p>
     
-    <iframe style="border: 0; width: 100%; height: 450px;" 
-            src="https://bandcamp.com/EmbeddedPlayer/album=281724953/size=large/bgcol=333333/linkcol=fe7eaf/artwork=none/transparent=true/" 
-            seamless>
-            <a href="https://t4tapes.bandcamp.com/album/t4tapes-basement-sessions">T4Tapes: Basement Sessions by T4Tapes</a>
-    </iframe>
+   <iframe style="border: 0; width: 700px; height: 1136px;" src="https://bandcamp.com/EmbeddedPlayer/album=281724953/size=large/bgcol=333333/linkcol=fe7eaf/transparent=true/" seamless><a href="https://t4tapes.bandcamp.com/album/t4tapes-basement-sessions">T4Tapes: Basement Sessions by T4Tapes</a></iframe>
   </div>
 
 </div>
