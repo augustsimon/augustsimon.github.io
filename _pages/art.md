@@ -10,56 +10,56 @@ below, you can find my visual art divided into categories
 
 <div class="collection-button-container">
 
-  <a href="/art/lenas-universe/" class="collection-btn" style="background-image: url('/assets/images/lenas-universe.jpg');">
+  <a href="/t4tapes/" class="collection-btn" style="background-image: url('/assets/images/t4tzine-4-5.png');">
     <div class="collection-text-wrapper">
       <h2 class="collection-title">T4Tapes</h2>
       <p class="collection-desc">cassette compilation recorded straight to tape by and for trans ppl</p>
     </div>
   </a>
 
-  <a href="/art/pups-around-the-world/" class="collection-btn" style="background-image: url('/assets/images/Pupsaroundtheworld.png');">
-    <div class="collection-text-wrapper">
-      <h2 class="collection-title">logos & album covers</h2>
-      <p class="collection-desc">branding-adjacent work for local bands</p>
-    </div>
-  </a>
-
-  <a href="/art/pups-around-the-world/" class="collection-btn" style="background-image: url('/assets/images/Pupsaroundtheworld.png');">
-    <div class="collection-text-wrapper">
-      <h2 class="collection-title">traditional art</h2>
-      <p class="collection-desc">art made on paper with physical materials</p>
-    </div>
-  </a>
-
-  <a href="/art/pups-around-the-world/" class="collection-btn" style="background-image: url('/assets/images/Pupsaroundtheworld.png');">
-    <div class="collection-text-wrapper">
-      <h2 class="collection-title">digital art</h2>
-      <p class="collection-desc">art i made on a small computer</p>
-    </div>
-  </a>
-
-  <a href="/art/pups-around-the-world/" class="collection-btn" style="background-image: url('/assets/images/Pupsaroundtheworld.png');">
-    <div class="collection-text-wrapper">
-      <h2 class="collection-title">physical music media</h2>
-      <p class="collection-desc">zines, j-cards, t-shirt designs, and other things that were designed with the intention to hold</p>
-    </div>
-  </a>
-
-  <a href="/art/pups-around-the-world/" class="collection-btn" style="background-image: url('/assets/images/Pupsaroundtheworld.png');">
+  <a href="/posters/" class="collection-btn" style="background-image: url('/assets/images/avataredenflyer.png');">
     <div class="collection-text-wrapper">
       <h2 class="collection-title">posters</h2>
       <p class="collection-desc">past efforts to get you to come to the gig</p>
     </div>
   </a>
 
-  <a href="/art/sleepy-in-the-meadow/" class="collection-btn" style="background-image: url('/assets/images/sleepyinthemeadow.jpeg');">
+  <a href="/physicalmedia/" class="collection-btn" style="background-image: url('/assets/images/cherryjcard.PNG');">
+    <div class="collection-text-wrapper">
+      <h2 class="collection-title">physical music media</h2>
+      <p class="collection-desc">zines, j-cards, t-shirt designs, and other things that were designed with the intention to hold</p>
+    </div>
+  </a> 
+  
+   <a href="/digitalart/" class="collection-btn" style="background-image: url('/assets/images/lenas-universe.jpg');">
+    <div class="collection-text-wrapper">
+      <h2 class="collection-title">digital art</h2>
+      <p class="collection-desc">art i made on a small computer</p>
+    </div>
+  </a>
+
+  <a href="/traditionalart/" class="collection-btn" style="background-image: url('/assets/images/spiritcircle.png');">
+    <div class="collection-text-wrapper">
+      <h2 class="collection-title">traditional art</h2>
+      <p class="collection-desc">art made on paper with physical materials</p>
+    </div>
+  </a>
+
+  <a href="/logosncovers/" class="collection-btn" style="background-image: url('/assets/images/crushfundpink.png');">
+    <div class="collection-text-wrapper">
+      <h2 class="collection-title">logos & album covers</h2>
+      <p class="collection-desc">branding-adjacent work for local bands</p>
+    </div>
+  </a>
+
+  <a href="/gallim/" class="collection-btn" style="background-image: url('/assets/images/gallimspread1.png');">
     <div class="collection-text-wrapper">
       <h2 class="collection-title">GALLIM Dance Company</h2>
       <p class="collection-desc">my work with GALLIM, a nonprofit dance company</p>
     </div>
   </a>
 
-  <a href="/art/sleepy-in-the-meadow/" class="collection-btn" style="background-image: url('/assets/images/sleepyinthemeadow.jpeg');">
+  <a href="/lgbtnetwork/" class="collection-btn" style="background-image: url('/assets/images/tgncconnect.jpg');">
     <div class="collection-text-wrapper">
       <h2 class="collection-title">The LGBT Network</h2>
       <p class="collection-desc">some graphics i made during my internship with them</p>
