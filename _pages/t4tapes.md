@@ -71,7 +71,7 @@ i feel very proud to be a part of this project! we all did a little bit of every
 
 
 ## Volume II
-### recorded winter 2023-spring 2024, released may 2024
+### recorded fall-winter 2023, released december 2023
 
 <div class="media-row" id="row-vol2">
   
@@ -82,7 +82,7 @@ i feel very proud to be a part of this project! we all did a little bit of every
     </div>
     
     <div class="stacked-image-group">
-      <img src="/assets/images/t4tapes/t4t2-tapelabel-side-b.png.jpeg" alt="vol 2's tape labels side b" class="portfolio-media-img">
+      <img src="/assets/images/t4tapes/t4t2-tapelabel-side-b.png" alt="vol 2's tape labels side b" class="portfolio-media-img">
       <p class="caption">caption</p>
     </div>
   </div>
@@ -98,7 +98,7 @@ i feel very proud to be a part of this project! we all did a little bit of every
 
     <!-- New Image Stacked Below the Bandcamp Player -->
     <div class="stacked-image-group">
-      <img src="/assets/images/t4tapes/vol2cassette.png" alt="vol 2's cassette" class="portfolio-media-img">
+      <img src="/assets/images/t4tapes/vol2cassette.jpg" alt="vol 2's cassette" class="portfolio-media-img">
       <p class="caption">vol 2 in all it's glory</p>
     </div>
   </div>
@@ -117,19 +117,22 @@ i feel very proud to be a part of this project! we all did a little bit of every
     <p class="caption">front and back for vol 2's jcard. i designed these fully, plus other color varients for limited releases</p>
   </div>
 
-</div>
 
-<!-- Left-Aligned Single Column Image -->
+<!-- Side-by-Side Images -->
 <div class="side-by-side-row">
   
-  <!-- Left Column (Image) -->
   <div class="side-by-side-col">
-    <img src="/assets/images/t4tapes/t4t2 fundraiser show poster.png" alt="vol 2 fundraiser show poster" class="portfolio-media-img">
-    <p class="caption">poster for vol 2's fundraising show and full lineup announcement, before release</p>
+    <img src="/assets/images/t4tapes/t4t2 fundraiser show poster.png" alt="poster for vol 2's release show" class="portfolio-media-img">
+    <p class="caption">poster for vol 2's release show</p>
   </div>
 
-  <!-- Right Column (Empty to hold the 50% structure) -->
-  <div class="side-by-side-col"></div>
+  <div class="side-by-side-col">
+    <video controls playsinline class="portfolio-media-img">
+      <source src="/assets/images/t4tapes/T4Tapes II Announcement.mp4" type="video/mp4">
+      your browser does not support the video tag.
+    </video>
+    <p class="caption">the announcement video i edited for volume 2's lineup</p>
+  </div>
 
 </div>
 
