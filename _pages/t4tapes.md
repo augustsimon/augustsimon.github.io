@@ -23,16 +23,23 @@ i feel very proud to be a part of this project! we all did a little bit of every
   
   <!-- Left Column: Webplayer -->
   <div class="media-column player-side">
-    <iframe class="bandcamp-embed vol1-player" src="https://bandcamp.com/EmbeddedPlayer/album=281724953/size=large/bgcol=333333/linkcol=fe7eaf/artwork=small/transparent=true/" seamless>
+    <iframe class="bandcamp-embed vol1-player" src="https://bandcamp.com/EmbeddedPlayer/album=281724953/size=large/bgcol=333333/linkcol=fe7eaf/transparent=true/" seamless>
       <a href="https://t4tapes.bandcamp.com/album/t4tapes-basement-sessions">T4Tapes: Basement Sessions by T4Tapes</a>
     </iframe>
     <p class="caption">our friend july (@verysleepy.flac) drew the cover art and the logo! i formatted everything into a j-card and stickers, and did the lettering.</p>
   </div>
 
-  <!-- Right Column: Image -->
+  <!-- Right Column: Stacked Images -->
   <div class="media-column image-side">
-    <img src="/assets/images/t4tapes/t4t1-tapelabel.png" alt="t4tapes vol 1 tape label" class="portfolio-media-img">
-    <p class="caption">stickers i made to label side a and b of the tapes, with artist names</p>
+    <div class="stacked-image-group">
+      <img src="/assets/images/t4tapes/t4t1-tapelabel.png" alt="t4tapes vol 1 tape label" class="portfolio-media-img">
+      <p class="caption">stickers i made to label side a and b of the tapes, with artist names</p>
+    </div>
+    
+    <div class="stacked-image-group">
+      <img src="/assets/images/t4tapes/t4tapes j card back.png" alt="t4tapes vol 1 j-card back" class="portfolio-media-img">
+      <p class="caption">the back side of the j-card for t4tapes vol 1</p>
+    </div>
   </div>
 
 </div>
@@ -51,6 +58,7 @@ i feel very proud to be a part of this project! we all did a little bit of every
   <div class="grid-item">
     <img src="/assets/images/t4tapes/t4tzine-4-5.png" alt="t4tapes zine pgs 4 and 5">
   </div>
+  <p class="caption">i made this zine a little after vol 1's release!.</p>
 </div>
 
 ## Volume II
@@ -58,18 +66,25 @@ i feel very proud to be a part of this project! we all did a little bit of every
 
 <div class="media-row" id="row-vol2">
   
-  <!-- Left Column: Image -->
+  <!-- Left Column: Stacked Images -->
   <div class="media-column image-side">
-    <img src="/assets/images/digitalart/sleepyinthemeadow.jpeg" alt="t4tapes Volume 2 Cover Art" class="portfolio-media-img">
-    <p class="caption">vol 2 description</p>
+    <div class="stacked-image-group">
+      <img src="/assets/images/digitalart/sleepyinthemeadow.jpeg" alt="t4tapes Volume 2 Cover Art" class="portfolio-media-img">
+      <p class="caption">july's beautiful original cover artwork illustration for volume 2, featured on our posters</p>
+    </div>
+    
+    <div class="stacked-image-group">
+      <img src="/assets/images/t4tapes/t4t2-insert.png" alt="t4tapes Volume 2 sticker label designs" class="portfolio-media-img">
+      <p class="caption">a closer look at the label sticker design and custom lettering used on the volume 2 physical releases</p>
+    </div>
   </div>
 
   <!-- Right Column: Webplayer -->
   <div class="media-column player-side">
-    <iframe class="bandcamp-embed vol2-player" src="https://bandcamp.com/EmbeddedPlayer/album=4019474630/size=large/bgcol=333333/linkcol=fe7eaf/artwork=small/transparent=true/" seamless>
+    <iframe class="bandcamp-embed vol2-player" src="https://bandcamp.com/EmbeddedPlayer/album=4019474630/size=large/bgcol=333333/linkcol=fe7eaf/transparent=true/" seamless>
       <a href="https://t4tapes.bandcamp.com/album/t4tapes-volume-ii">T4Tapes: Volume II by T4Tapes</a>
     </iframe>
-    <p class="caption">brief description or design detail for volume 2 artwork, print templates, or packaging inserts.</p>
+    <p class="caption">our friend ezra drew the cover art and logo, and i formatted everything to j-card and did typography</p>
   </div>
 
 </div>
@@ -113,7 +128,7 @@ i feel very proud to be a part of this project! we all did a little bit of every
     display: flex;
     flex-direction: row;
     gap: 3rem; /* Space between columns */
-    align-items: flex-start; /* Aligns to top so images don't distort */
+    align-items: flex-start; /* Aligns to top so columns don't stretch */
     width: 100%;
     margin-bottom: 4rem;
   }
@@ -123,10 +138,17 @@ i feel very proud to be a part of this project! we all did a little bit of every
     min-width: 0;
   }
 
-  /* Image Column Layout */
+  /* Stacked Image layout configuration */
   .image-side {
     display: flex;
     flex-direction: column;
+    gap: 2.5rem; /* Distinct spacing between the two stacked image groups */
+  }
+
+  .stacked-image-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
 
   /* Portfolio Image styling */
@@ -158,14 +180,14 @@ i feel very proud to be a part of this project! we all did a little bit of every
   .bandcamp-embed {
     border: 0;
     width: 100%;
+    max-width: 350px; /* Kept standard width for cover art proportions */
   }
 
-  /* Height adjusted to fit full 12 tracks without scrolling */
+  /* Heights adjusted to display full-size cover art + entire tracklist cleanly */
   .vol1-player {
-    height: 800px !important; 
+    height: 870px !important; 
   }
 
-  /* Height adjusted to fit full 22 tracks without scrolling */
   .vol2-player {
     height: 1200px !important; 
   }
@@ -200,32 +222,33 @@ i feel very proud to be a part of this project! we all did a little bit of every
   /* --- MOBILE RESPONSIVE TWEAKS --- */
   @media (max-width: 900px) {
     .media-row {
-      flex-direction: column !important; /* Stack columns on mobile */
-      gap: 2rem;
+      flex-direction: column !important; /* Stack columns on mobile screens */
+      gap: 3rem;
     }
     
     .media-column {
       width: 100%;
     }
 
-    /* Vol 1 mobile layout: Webplayer stacks on top of the Tape sticker */
+    /* Vol 1 mobile layout: Webplayer on top, image stack below */
     #row-vol1 {
       display: flex;
       flex-direction: column !important;
     }
 
-    /* Vol 2 mobile layout: Cover image stacks on top of Webplayer */
+    /* Vol 2 mobile layout: Image stack on top, webplayer below */
     #row-vol2 {
       display: flex;
       flex-direction: column-reverse !important;
     }
 
+    /* Standard mobile height fallback if space gets tight on screens */
     .vol1-player, .vol2-player {
-      height: 600px !important; /* Restricts excessive height on mobile screens */
+      height: 600px !important; 
     }
 
     .image-grid-2x2 {
-      grid-template-columns: 1fr; /* Single column on mobile */
+      grid-template-columns: 1fr; /* Single column layout on mobile */
       gap: 1rem;
     }
     
