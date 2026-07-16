@@ -83,7 +83,7 @@ i feel very proud to be a part of this project! we all did a little bit of every
     
     <div class="stacked-image-group">
       <img src="/assets/images/t4tapes/t4t2-tapelabel-side-b.png" alt="vol 2's tape labels side b" class="portfolio-media-img">
-      <p class="caption">caption</p>
+      <p class="caption">tape labels for side a and b of vol 2</p>
     </div>
   </div>
 
@@ -105,8 +105,6 @@ i feel very proud to be a part of this project! we all did a little bit of every
   <p class="caption">vol 2's cassette.</p>
 </div>
 
-</div>
-
 <!-- Stacked Vertical Gallery -->
 <div class="vertical-gallery">
   
@@ -118,7 +116,6 @@ i feel very proud to be a part of this project! we all did a little bit of every
     <img src="/assets/images/t4tapes/t4t2-jcard-side-b.jpeg" alt="volume 2's jcard side b" class="portfolio-media-img">
     <p class="caption">front and back for vol 2's jcard. i designed these fully, plus other color varients for limited releases</p>
   </div>
-
 
 <!-- Side-by-Side Images -->
 <div class="side-by-side-row">
