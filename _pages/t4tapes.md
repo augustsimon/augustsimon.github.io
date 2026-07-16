@@ -128,8 +128,7 @@ i feel very proud to be a part of this project! we all did a little bit of every
 
   <div class="side-by-side-col">
     <video controls playsinline class="portfolio-media-img">
-      <source src="/assets/images/t4tapes/T4Tapes II Announcement.mp4" type="video/mp4">
-      your browser does not support the video tag.
+      <source src="/assets/images/t4tapes/T4Tapes II Announcement-compress.mp4" type="video/mp4">
     </video>
     <p class="caption">the announcement video i edited for volume 2's lineup</p>
   </div>
