@@ -21,12 +21,20 @@ i feel very proud to be a part of this project! we all did a little bit of every
 
 <div class="media-row" id="row-vol1">
   
-  <!-- Left Column: Webplayer -->
+  <!-- Left Column: Webplayer & Below Image -->
   <div class="media-column player-side">
-    <iframe class="bandcamp-embed vol1-player" src="https://bandcamp.com/EmbeddedPlayer/album=281724953/size=large/bgcol=333333/linkcol=fe7eaf/transparent=true/" seamless>
-      <a href="https://t4tapes.bandcamp.com/album/t4tapes-basement-sessions">T4Tapes: Basement Sessions by T4Tapes</a>
-    </iframe>
-    <p class="caption">our friend july (@verysleepy.flac) drew the cover art and the logo! i formatted everything into a j-card and stickers, and did the lettering.</p>
+    <div class="stacked-image-group">
+      <iframe class="bandcamp-embed vol1-player" src="https://bandcamp.com/EmbeddedPlayer/album=281724953/size=large/bgcol=333333/linkcol=fe7eaf/transparent=true/" seamless>
+        <a href="https://t4tapes.bandcamp.com/album/t4tapes-basement-sessions">T4Tapes: Basement Sessions by T4Tapes</a>
+      </iframe>
+      <p class="caption">our friend july drew the cover art and the logo! i formatted everything into a j-card and stickers, and did the lettering.</p>
+    </div>
+
+    <!-- New Image Stacked Below the Bandcamp Player -->
+    <div class="stacked-image-group">
+      <img src="/assets/images/t4tapes/t4tvol1cassette.jpg" alt="the cassette!">
+      <p class="caption">the cassette!</p>
+    </div>
   </div>
 
   <!-- Right Column: Stacked Images -->
@@ -79,12 +87,20 @@ i feel very proud to be a part of this project! we all did a little bit of every
     </div>
   </div>
 
-  <!-- Right Column: Webplayer -->
+  <!-- Right Column: Webplayer & Below Image -->
   <div class="media-column player-side">
-    <iframe class="bandcamp-embed vol2-player" src="https://bandcamp.com/EmbeddedPlayer/album=4019474630/size=large/bgcol=333333/linkcol=fe7eaf/transparent=true/" seamless>
-      <a href="https://t4tapes.bandcamp.com/album/t4tapes-volume-ii">T4Tapes: Volume II by T4Tapes</a>
-    </iframe>
-    <p class="caption">our friend ezra drew the cover art and logo, and i formatted everything to j-card and did typography</p>
+    <div class="stacked-image-group">
+      <iframe class="bandcamp-embed vol2-player" src="https://bandcamp.com/EmbeddedPlayer/album=4019474630/size=large/bgcol=333333/linkcol=fe7eaf/transparent=true/" seamless>
+        <a href="https://t4tapes.bandcamp.com/album/t4tapes-volume-ii">T4Tapes: Volume II by T4Tapes</a>
+      </iframe>
+      <p class="caption">our friend ezra drew the cover art and logo, and i formatted everything to j-card and did typography</p>
+    </div>
+
+    <!-- New Image Stacked Below the Bandcamp Player -->
+    <div class="stacked-image-group">
+      <img src="/assets/images/t4tapes/t4t2-extra.png" alt="additional vol 2 imagery" class="portfolio-media-img">
+      <p class="caption">caption text for the new image below the volume 2 player</p>
+    </div>
   </div>
 
 </div>
@@ -138,11 +154,11 @@ i feel very proud to be a part of this project! we all did a little bit of every
     min-width: 0;
   }
 
-  /* Stacked Image layout configuration */
-  .image-side {
+  /* Unified vertical stacking configurations for both columns */
+  .image-side, .player-side {
     display: flex;
     flex-direction: column;
-    gap: 2.5rem; /* Distinct spacing between the two stacked image groups */
+    gap: 2.5rem; /* Consistent spacing between all stacked groups */
   }
 
   .stacked-image-group {
@@ -168,13 +184,6 @@ i feel very proud to be a part of this project! we all did a little bit of every
     font-style: italic;
     line-height: 1.4;
     width: 100%;
-  }
-
-  /* Player Column Layout */
-  .player-side {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
   }
 
   /* Base embed setup (expands to fill the column exactly like the images) */
