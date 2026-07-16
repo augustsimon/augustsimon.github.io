@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://augustsimon.github.io/sitemap.xml
