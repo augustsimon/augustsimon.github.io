@@ -1,0 +1,111 @@
+<!-- Sitewide Lightbox Overlay Container -->
+<div id="sitewide-lightbox" class="sitewide-lightbox" onclick="closeLightbox(event)">
+  <span class="lightbox-close">&times;</span>
+  <img class="lightbox-content" id="lightbox-img" alt="Enlarged view">
+</div>
+
+<!-- Lightbox Styles (Embedded so you don't need a CSS folder) -->
+<style>
+  .sitewide-lightbox {
+    display: none;
+    position: fixed;
+    z-index: 99999; /* Keeps it on top of all other site elements */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+    cursor: zoom-out;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .sitewide-lightbox.active {
+    display: flex;
+    opacity: 1;
+  }
+
+  .lightbox-content {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+    border-radius: 4px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    transform: scale(0.95);
+    transition: transform 0.3s ease;
+    cursor: default;
+  }
+
+  .sitewide-lightbox.active .lightbox-content {
+    transform: scale(1);
+  }
+
+  .lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    transition: color 0.2s ease;
+  }
+
+  .lightbox-close:hover {
+    color: #fe7eaf; /* Matches your pink / neon accents */
+  }
+
+  @media (max-width: 768px) {
+    .lightbox-content {
+      max-width: 95%;
+      max-height: 80%;
+    }
+    .lightbox-close {
+      top: 15px;
+      right: 20px;
+      font-size: 35px;
+    }
+  }
+</style>
+
+<!-- Lightbox Functionality -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Targets your portfolio images, grid images, and standard page content images
+    const images = document.querySelectorAll(".page__content img, .portfolio-media-img, .grid-item img");
+    const lightbox = document.getElementById("sitewide-lightbox");
+    const lightboxImg = document.getElementById("lightbox-img");
+
+    images.forEach(img => {
+      // Add cursor styling to show images are clickable
+      img.style.cursor = "zoom-in";
+
+      img.addEventListener("click", function (e) {
+        e.stopPropagation();
+        const highResUrl = this.src; 
+        lightboxImg.src = highResUrl;
+        lightbox.classList.add("active");
+        document.body.style.overflow = "hidden"; // Prevent page scrolling in background
+      });
+    });
+  });
+
+  function closeLightbox(e) {
+    const lightbox = document.getElementById("sitewide-lightbox");
+    if (e.target.id !== "lightbox-img") {
+      lightbox.classList.remove("active");
+      document.body.style.overflow = ""; // Re-enable scrolling
+    }
+  }
+
+  document.addEventListener("keydown", function(e) {
+    if (e.key === "Escape") {
+      const lightbox = document.getElementById("sitewide-lightbox");
+      lightbox.classList.remove("active");
+      document.body.style.overflow = "";
+    }
+  });
+</script>
