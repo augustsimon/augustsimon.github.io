@@ -167,6 +167,7 @@ i feel very proud to be a part of this project! we all did a little bit of every
     margin-top: 0.8rem;
     font-style: italic;
     line-height: 1.4;
+    width: 100%;
   }
 
   /* Player Column Layout */
@@ -176,11 +177,10 @@ i feel very proud to be a part of this project! we all did a little bit of every
     height: 100%;
   }
 
-  /* Base embed setup */
+  /* Base embed setup (expands to fill the column exactly like the images) */
   .bandcamp-embed {
     border: 0;
     width: 100%;
-    max-width: 350px; /* Kept standard width for cover art proportions */
   }
 
   /* Heights adjusted to display full-size cover art + entire tracklist cleanly */
