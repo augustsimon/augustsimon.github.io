@@ -32,7 +32,7 @@ i feel very proud to be a part of this project! we all did a little bit of every
 
     <!-- New Image Stacked Below the Bandcamp Player -->
     <div class="stacked-image-group">
-      <img src="/assets/images/t4tapes/t4tvol1cassette.jpg" alt="the cassette!">
+      <img src="/assets/images/t4tapes/t4tvol1cassette.jpg" alt="the cassette!" class="portfolio-media-img">
       <p class="caption">the cassette!</p>
     </div>
   </div>
@@ -69,6 +69,7 @@ i feel very proud to be a part of this project! we all did a little bit of every
   <p class="caption">i made this zine a little after vol 1's release!.</p>
 </div>
 
+
 ## Volume II
 ### recorded winter 2023-spring 2024, released may 2024
 
@@ -77,13 +78,12 @@ i feel very proud to be a part of this project! we all did a little bit of every
   <!-- Left Column: Stacked Images -->
   <div class="media-column image-side">
     <div class="stacked-image-group">
-      <img src="/assets/images/digitalart/sleepyinthemeadow.jpeg" alt="t4tapes Volume 2 Cover Art" class="portfolio-media-img">
-      <p class="caption">july's beautiful original cover artwork illustration for volume 2, featured on our posters</p>
+      <img src="/assets/images/t4tapes/t4t2-tapelabel-side-a.png" alt="volume 2's tape labels side a" class="portfolio-media-img">
     </div>
     
     <div class="stacked-image-group">
-      <img src="/assets/images/t4tapes/t4t2-insert.png" alt="t4tapes Volume 2 sticker label designs" class="portfolio-media-img">
-      <p class="caption">a closer look at the label sticker design and custom lettering used on the volume 2 physical releases</p>
+      <img src="/assets/images/t4tapes/t4t2-tapelabel-side-b.png.jpeg" alt="vol 2's tape labels side b" class="portfolio-media-img">
+      <p class="caption">caption</p>
     </div>
   </div>
 
@@ -98,9 +98,52 @@ i feel very proud to be a part of this project! we all did a little bit of every
 
     <!-- New Image Stacked Below the Bandcamp Player -->
     <div class="stacked-image-group">
-      <img src="/assets/images/t4tapes/t4t2-extra.png" alt="additional vol 2 imagery" class="portfolio-media-img">
-      <p class="caption">caption text for the new image below the volume 2 player</p>
+      <img src="/assets/images/t4tapes/vol2cassette.png" alt="vol 2's cassette" class="portfolio-media-img">
+      <p class="caption">vol 2 in all it's glory</p>
     </div>
+  </div>
+
+</div>
+
+<!-- Stacked Vertical Gallery -->
+<div class="vertical-gallery">
+  
+  <div class="vertical-gallery-item">
+    <img src="/assets/images/t4tapes/t4t2-jcard-side-a.jpeg" alt="volume 2's jcard side a" class="portfolio-media-img">
+  </div>
+
+  <div class="vertical-gallery-item">
+    <img src="/assets/images/t4tapes/t4t2-jcard-side-b.jpeg" alt="volume 2's jcard side b" class="portfolio-media-img">
+    <p class="caption">front and back for vol 2's jcard. i designed these fully, plus other color varients for limited releases</p>
+  </div>
+
+</div>
+
+<!-- Left-Aligned Single Column Image -->
+<div class="side-by-side-row">
+  
+  <!-- Left Column (Image) -->
+  <div class="side-by-side-col">
+    <img src="/assets/images/t4tapes/t4t2 fundraiser show poster.png" alt="vol 2 fundraiser show poster" class="portfolio-media-img">
+    <p class="caption">poster for vol 2's fundraising show and full lineup announcement, before release</p>
+  </div>
+
+  <!-- Right Column (Empty to hold the 50% structure) -->
+  <div class="side-by-side-col"></div>
+
+</div>
+
+<!-- Side-by-Side Images -->
+<div class="side-by-side-row">
+  
+  <div class="side-by-side-col">
+    <img src="/assets/images/t4tapes/t4t2 purg release poster.jpg" alt="poster for vol 2's release show" class="portfolio-media-img">
+    <p class="caption">poster for vol 2's release show</p>
+  </div>
+
+  <div class="side-by-side-col">
+    <img src="/assets/images/t4tapes/t4tnoiseshowposter.jpeg" alt="poster for a noise show we did shortly after vol 2's release" class="portfolio-media-img">
+    <p class="caption">poster for a noise show we did shortly after vol 2's release</p>
   </div>
 
 </div>
@@ -165,6 +208,40 @@ i feel very proud to be a part of this project! we all did a little bit of every
     display: flex;
     flex-direction: column;
     width: 100%;
+  }
+
+  /* --- VERTICAL STACKED GALLERY SYSTEM --- */
+  .vertical-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.5rem; /* Spacing between the stacked photos */
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+
+  .vertical-gallery-item {
+    width: 100%;
+    max-width: 750px; /* Keeps stacked items centered and balanced on desktop sizes */
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* --- SIDE-BY-SIDE EQUAL SIZE SYSTEM --- */
+  .side-by-side-row {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem; /* Spacing between the two images */
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+
+  .side-by-side-col {
+    flex: 1; /* Forces both containers to take up exactly 50% width */
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
   }
 
   /* Portfolio Image styling */
@@ -237,6 +314,12 @@ i feel very proud to be a part of this project! we all did a little bit of every
     
     .media-column {
       width: 100%;
+    }
+
+    /* Stack side-by-side images vertically on mobile */
+    .side-by-side-row {
+      flex-direction: column !important;
+      gap: 2rem;
     }
 
     /* Vol 1 mobile layout: Webplayer on top, image stack below */
