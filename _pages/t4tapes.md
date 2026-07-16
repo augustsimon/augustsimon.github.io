@@ -87,7 +87,7 @@ i feel very proud to be a part of this project! we all did a little bit of every
     </div>
   </div>
 
-  <!-- Right Column: Webplayer & Below Image -->
+  <!-- Right Column: Webplayer -->
   <div class="media-column player-side">
     <div class="stacked-image-group">
       <iframe class="bandcamp-embed vol2-player" src="https://bandcamp.com/EmbeddedPlayer/album=4019474630/size=large/bgcol=333333/linkcol=fe7eaf/transparent=true/" seamless>
@@ -95,13 +95,15 @@ i feel very proud to be a part of this project! we all did a little bit of every
       </iframe>
       <p class="caption">our friend ezra drew the cover art and logo, and i formatted everything to j-card and did typography</p>
     </div>
-
-    <!-- New Image Stacked Below the Bandcamp Player -->
-    <div class="stacked-image-group">
-      <img src="/assets/images/t4tapes/vol2cassette.jpg" alt="vol 2's cassette" class="portfolio-media-img">
-      <p class="caption">vol 2 in all it's glory</p>
-    </div>
   </div>
+
+</div>
+
+<!-- Centered Single Image -->
+<div style="display: block; margin-left: auto; margin-right: auto; max-width: 600px; text-align: center;">
+  <img src="/assets/images/t4tapes/vol2cassette.jpg" alt="vol 2's cassette" class="portfolio-media-img" style="width: 100%; height: auto;">
+  <p class="caption">vol 2's cassette.</p>
+</div>
 
 </div>
 
@@ -123,7 +125,7 @@ i feel very proud to be a part of this project! we all did a little bit of every
   
   <div class="side-by-side-col">
     <img src="/assets/images/t4tapes/t4t2 fundraiser show poster.png" alt="poster for vol 2's release show" class="portfolio-media-img">
-    <p class="caption">poster for vol 2's release show</p>
+    <p class="caption">poster for vol 2's fundraiser show</p>
   </div>
 
   <div class="side-by-side-col">
@@ -147,6 +149,14 @@ i feel very proud to be a part of this project! we all did a little bit of every
     <img src="/assets/images/t4tapes/t4tnoiseshowposter.jpeg" alt="poster for a noise show we did shortly after vol 2's release" class="portfolio-media-img">
     <p class="caption">poster for a noise show we did shortly after vol 2's release</p>
   </div>
+
+</div>
+
+<!-- Centered Single Image -->
+<div style="display: block; margin-left: auto; margin-right: auto; max-width: 600px; text-align: center;">
+  <img src="/assets/images/t4tapes/t4tapes punk island zine.jpg" alt="punk island zine" class="portfolio-media-img" style="width: 100%; height: auto;">
+  <p class="caption">a zine i made for punk island 2024 showcasing friends of t4tapes that were performing</p>
+</div>
 
 </div>
 
