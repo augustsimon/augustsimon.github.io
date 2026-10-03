@@ -8,5 +8,7 @@ main:
     url: /music/
   - title: "other stuff"
     url: /other/
+  - title: "professional"
+    url: /professional/
   - title: "about"
     url: /about/
