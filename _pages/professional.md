@@ -9,59 +9,35 @@ author_profile: true
 <div class="section-nav professional-nav">
   <div class="section-nav__brand">professional</div>
   <nav class="section-nav__links">
-    <a href="#overview">overview</a>
-    <a href="#experience">experience</a>
-    <a href="#skills">skills</a>
-    <a href="#resume">resume</a>
-    <a href="/home/" class="section-nav__button">portfolio</a>
+    <a href="/professional/">home</a>
+    <a href="/resume/">resume</a>
+    <a href="/prior-events/">prior events</a>
   </nav>
 </div>
 
-<section id="overview" class="profile-card">
-  <h2>professional overview</h2>
+<section class="professional-intro">
+  <p class="eyebrow">professional experience</p>
+  <h2>creative work shaped by design, community, and communication.</h2>
   <p>i'm a multidisciplinary artist and creative professional with experience in visual design, communications, and collaborative media work. my practice brings together storytelling, visual systems, and community-centered projects that make complex ideas feel accessible.</p>
-</section>
-
-<section id="experience" class="experience-block">
-  <h2>experience</h2>
-
-  <div class="experience-item">
-    <h3>visual designer / creative collaborator</h3>
-    <p class="meta">freelance + community-based projects</p>
-    <p>developed event graphics, digital art, social media visuals, and identity-focused work for arts organizations and independent music communities.</p>
-  </div>
-
-  <div class="experience-item">
-    <h3>graphic design intern</h3>
-    <p class="meta">the lgbt network</p>
-    <p>designed promotional media and digital materials that supported outreach, engagement, and community-centered communication.</p>
-  </div>
-
-  <div class="experience-item">
-    <h3>creative partner</h3>
-    <p class="meta">gallim dance company</p>
-    <p>contributed visual materials and branding-adjacent design support in service of public-facing programming and institutional storytelling.</p>
+  <div class="cta-row">
+    <a href="/resume/" class="cta-button">view resume</a>
+    <a href="/prior-events/" class="cta-button secondary">see prior events</a>
   </div>
 </section>
 
-<section id="skills" class="skills-block">
-  <h2>skills</h2>
-  <div class="tag-list">
-    <span>graphic design</span>
-    <span>brand identity</span>
-    <span>visual storytelling</span>
-    <span>art direction</span>
-    <span>digital illustration</span>
-    <span>social media design</span>
-    <span>collaboration</span>
-    <span>communication</span>
+<section class="summary-grid">
+  <div class="summary-card">
+    <h3>focus</h3>
+    <p>visual storytelling, identity work, and community-facing creative projects.</p>
   </div>
-</section>
-
-<section id="resume" class="resume-block">
-  <h2>resume</h2>
-  <p>my background blends creative practice with community-facing work, and i'm especially interested in projects that connect culture, communication, and accessibility.</p>
-  <p>for a more detailed summary of my work, feel free to contact me directly or explore the portfolio section for examples of my projects.</p>
+  <div class="summary-card">
+    <h3>strengths</h3>
+    <p>design thinking, collaboration, outreach communication, and project-based creative problem solving.</p>
+  </div>
+  <div class="summary-card">
+    <h3>experience</h3>
+    <p>freelance creative work with arts organizations, nonprofit initiatives, and local media communities.</p>
+  </div>
 </section>
 
 <style>
@@ -111,15 +87,86 @@ author_profile: true
   color: #fff !important;
 }
 
+.professional-nav {
+  background: #111;
+  border-color: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+}
+
+.professional-nav .section-nav__brand,
+.professional-nav .section-nav__links a {
+  color: #fff;
+}
+
+.professional-nav .section-nav__links a:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.professional-intro,
 .profile-card,
 .experience-block,
 .skills-block,
-.resume-block {
+.resume-block,
+.summary-card {
   margin: 1.5rem 0;
   padding: 1.5rem;
   background: rgba(0, 0, 0, 0.02);
   border: 1px solid rgba(0, 0, 0, 0.06);
   border-radius: 18px;
+}
+
+.professional-intro {
+  background: linear-gradient(135deg, rgba(17, 17, 17, 0.96), rgba(34, 34, 34, 0.9));
+  color: #fff;
+  padding: 2rem 1.75rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.75rem 0;
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.75;
+}
+
+.professional-intro h2 {
+  margin: 0 0 1rem 0;
+  color: #fff;
+  font-size: clamp(2rem, 3vw, 3rem);
+  line-height: 1.2;
+}
+
+.cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.cta-button {
+  display: inline-block;
+  text-decoration: none;
+  background: #fff;
+  color: #111;
+  border-radius: 999px;
+  padding: 0.8rem 1.2rem;
+  font-weight: 700;
+}
+
+.cta-button.secondary {
+  background: transparent;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.summary-card h3 {
+  margin-top: 0;
 }
 
 .experience-item {
