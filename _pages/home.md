@@ -13,7 +13,7 @@ author_profile: false
     <a href="/art/">art</a>
     <a href="/music/">music</a>
     <a href="/other/">other stuff</a>
-    <a href="/about/">about</a>
+    <a href="/artabout/">about</a>
   </nav>
 </div>
 
