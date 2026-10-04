@@ -1,14 +1,14 @@
 main:
 
-  - title: "home"
-    url: /home/
+  - title: "Portfolio"
+    url: /portfolio/
   - title: "art"
     url: /art/
   - title: "music"
     url: /music/
   - title: "other stuff"
     url: /other/
-  - title: "professional"
+  - title: "Professional Experience"
     url: /professional/
   - title: "about"
     url: /about/

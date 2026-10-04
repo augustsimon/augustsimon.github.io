@@ -1,6 +1,6 @@
 ---
-title: "home"
-permalink: /home/
+title: "portfolio"
+permalink: /portfolio/
 layout: single
 classes: wide
 author_profile: true
