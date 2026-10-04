@@ -1,9 +1,9 @@
 ---
-title: "home"
+title: "art and stuff!"
 permalink: /home/
 layout: single
 classes: wide
-author_profile: true
+author_profile: false
 ---
 
 <div class="section-nav portfolio-nav">
@@ -14,7 +14,6 @@ author_profile: true
     <a href="/music/">music</a>
     <a href="/other/">other stuff</a>
     <a href="/about/">about</a>
-    <a href="/professional/" class="section-nav__button">professional</a>
   </nav>
 </div>
 
