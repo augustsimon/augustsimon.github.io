@@ -2,41 +2,41 @@
 layout: single
 classes: wide
 permalink: /professional/
-title: "professional"
+title: "Professional Experience"
 author_profile: true
 ---
 
 <div class="section-nav professional-nav">
-  <div class="section-nav__brand">professional</div>
+  <div class="section-nav__brand">Navigation</div>
   <nav class="section-nav__links">
-    <a href="/professional/">home</a>
-    <a href="/resume/">resume</a>
-    <a href="/prior-events/">prior events</a>
+    <a href="/professional/">Home</a>
+    <a href="/resume/">Resume</a>
+    <a href="/prior-events/">Public Speaking & Media</a>
   </nav>
 </div>
 
 <section class="professional-intro">
-  <p class="eyebrow">professional experience</p>
-  <h2>creative work shaped by design, community, and communication.</h2>
-  <p>i'm a multidisciplinary artist and creative professional with experience in visual design, communications, and collaborative media work. my practice brings together storytelling, visual systems, and community-centered projects that make complex ideas feel accessible.</p>
+  <p class="eyebrow">Welcome!</p>
+  <h2>I'm an interdisciplinary social worker in pursuit of creating radical community care for the LGBTQ+ community and substance users.</h2>
+  <p>I've worked in community organizing, substance abuse outpatient, direct support, and nonprofit. I'm hoping to build a practice interwoven with harm reduction, mutual aid, and radical liberation for all. My work is shaped by trauma-informed, anti-carceral firsthand experience battling bureaucratic systems as a marginalized person.</p>
   <div class="cta-row">
-    <a href="/resume/" class="cta-button">view resume</a>
-    <a href="/prior-events/" class="cta-button secondary">see prior events</a>
+    <a href="/resume/" class="cta-button">View Resume</a>
+    <a href="/prior-events/" class="cta-button secondary">See Public Speaking & Media</a>
   </div>
 </section>
 
 <section class="summary-grid">
   <div class="summary-card">
-    <h3>focus</h3>
-    <p>visual storytelling, identity work, and community-facing creative projects.</p>
+    <h3>Focus</h3>
+    <p>Building & engaging in systems that promote liberation for marginalized people</p>
   </div>
   <div class="summary-card">
-    <h3>strengths</h3>
-    <p>design thinking, collaboration, outreach communication, and project-based creative problem solving.</p>
+    <h3>Strengths</h3>
+    <p>Pro-active & holistic problem solving, individualized treatment styles, dedication</p>
   </div>
   <div class="summary-card">
-    <h3>experience</h3>
-    <p>freelance creative work with arts organizations, nonprofit initiatives, and local media communities.</p>
+    <h3>Experience</h3>
+    <p>Community organizing, substance abuse outpatient, direct support, and nonprofit</p>
   </div>
 </section>
 

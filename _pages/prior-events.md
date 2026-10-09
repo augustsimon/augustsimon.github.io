@@ -2,22 +2,22 @@
 layout: single
 classes: wide
 permalink: /prior-events/
-title: "prior events"
+title: "Public Speaking & Media"
 author_profile: true
 ---
 
 <div class="section-nav professional-nav">
-  <div class="section-nav__brand">professional</div>
+  <div class="section-nav__brand">Professional Experience</div>
   <nav class="section-nav__links">
-    <a href="/professional/">home</a>
-    <a href="/resume/">resume</a>
-    <a href="/prior-events/">prior events</a>
+    <a href="/professional/">Home</a>
+    <a href="/resume/">Resume</a>
+    <a href="/prior-events/">Public Speaking & Media</a>
   </nav>
 </div>
 
 <section class="timeline-page">
   <header class="timeline-header">
-    <p class="eyebrow">prior events</p>
+    <p class="eyebrow">Public Speaking & Media</p>
     <h2>selected projects and collaborations</h2>
   </header>
 

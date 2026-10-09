@@ -61,7 +61,8 @@ plugins:
 author:
   name   : "August Simon"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "artist and musician and friend, based in new york."
+  bio    : "MSW Candidate, May 2027
+          <br>Working towards liberation for the LGBTQ+ community & substance users"
   links:
     - #label: "Behance"
       #icon: "fas fa-fw fa-link"

@@ -14,7 +14,6 @@ author_profile: false
     <a href="/music/">music</a>
     <a href="/other/">other stuff</a>
     <a href="/artabout/">about</a>
-    <a href="/professional/" class="section-nav__button">professional</a>
   </nav>
 </div>
 

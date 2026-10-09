@@ -2,16 +2,16 @@
 layout: single
 classes: wide
 permalink: /resume/
-title: "resume"
+title: "Resume"
 author_profile: true
 ---
 
 <div class="section-nav professional-nav">
-  <div class="section-nav__brand">professional</div>
+  <div class="section-nav__brand">Professional Experience</div>
   <nav class="section-nav__links">
-    <a href="/professional/">home</a>
-    <a href="/resume/">resume</a>
-    <a href="/prior-events/">prior events</a>
+    <a href="/professional/">Home</a>
+    <a href="/resume/">Resume</a>
+    <a href="/prior-events/">Public Speaking & Media</a>
   </nav>
 </div>
 
