@@ -9,7 +9,7 @@ author_profile: false
 <div class="section-nav portfolio-nav">
   <div class="section-nav__brand">portfolio</div>
   <nav class="section-nav__links">
-    <a href="/home/">home</a>
+    <a href="/home/" class="is-active" aria-current="page">home</a>
     <a href="/art/">art</a>
     <a href="/music/">music</a>
     <a href="/other/">other stuff</a>
@@ -40,19 +40,7 @@ welcome! this is my repository for music, art, and other stuff that i want to ke
 </div>
 
 <style>
-.section-nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1rem;
-  padding: 0.9rem 1.25rem;
-  margin: 0 0 1.5rem 0;
-  border: 1px solid rgba(0, 0, 0, 0.08);
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.7);
-  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
-}
+.section-nav { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 1rem; padding: 0.9rem 1.25rem; margin: 0 0 1.5rem 0; border: 1px solid rgba(255, 255, 255, 0.8); border-radius: 999px; background: transparent; box-shadow: none; }
 
 .section-nav__brand {
   font-weight: 700;
@@ -69,22 +57,13 @@ welcome! this is my repository for music, art, and other stuff that i want to ke
   align-items: center;
 }
 
-.section-nav__links a {
-  text-decoration: none;
-  color: inherit;
-  padding: 0.45rem 0.8rem;
-  border-radius: 999px;
-  transition: background 0.2s ease;
-}
+.section-nav__links a { text-decoration: none; color: inherit; padding: 0.45rem 0.8rem; border: 1px solid transparent; border-radius: 999px; transition: background 0.2s ease, border-color 0.2s ease; }
 
-.section-nav__links a:hover {
-  background: rgba(0, 0, 0, 0.05);
-}
+.section-nav__links a:hover { background: rgba(255, 255, 255, 0.1); border-color: rgba(255, 255, 255, 0.65); }
 
-.section-nav__button {
-  background: #111;
-  color: #fff !important;
-}
+.section-nav .section-nav__links a.is-active { background: rgba(255, 255, 255, 0.12); border-color: rgba(255, 255, 255, 0.8); font-weight: 700; }
+
+.section-nav__button { background: transparent; border: 1px solid rgba(255, 255, 255, 0.8); color: #fff !important; }
 
 .scroll-gallery-container {
   overflow: hidden;

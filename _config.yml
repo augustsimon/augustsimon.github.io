@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: august's art and stuff
+title: August Simon
 email: augustsimon44@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  my repository for art, music, and other stuff that i want to catalogue/catagorize/archive/etc.
+  My website for both my professional experience and art portfolio
 # twitter_username: username
 github_username: augustsimon
 minimal_mistakes_skin: neon
@@ -70,13 +70,13 @@ author:
     - #label: "Twitter"
       #icon: "fab fa-fw fa-twitter-square"
       #url: "https://twitter.com/"
-    - label: "instagram"
+    - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/awguts/"
-    - label: "bandcamp"
+    - label: "Bandcamp"
       icon: "fab fa-fw fa-bandcamp"
       url: "https://augustsimon.bandcamp.com"
-    - label: "spotify"
+    - label: "Spotify"
       icon: "fab fa-fw fa-spotify"
       url: "https://open.spotify.com/artist/3yCOW2qjStPG2BpzajvsSc"
 
@@ -87,13 +87,13 @@ footer:
     -  #label: "Behance"
        #icon: "fab fa-fw fa-twitter-square"
        #url: "https://twitter.com/"
-    - label: "instagram"
+    - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/awguts/"
-    - label: "bandcamp"
+    - label: "Bandcamp"
       icon: "fab fa-fw fa-bandcamp"
       url: "https://augustsimon.bandcamp.com"
-    - label: "spotify"
+    - label: "Spotify"
       icon: "fab fa-fw fa-spotify"
       url: "https://open.spotify.com/artist/3yCOW2qjStPG2BpzajvsSc"
 
