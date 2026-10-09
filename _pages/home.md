@@ -7,7 +7,7 @@ author_profile: false
 ---
 
 <div class="section-nav portfolio-nav">
-  <div class="section-nav__brand">portfolio</div>
+  <div class="section-nav__brand">navigation</div>
   <nav class="section-nav__links">
     <a href="/home/" class="is-active" aria-current="page">home</a>
     <a href="/art/">art</a>
