@@ -74,6 +74,13 @@
 <!-- Lightbox Functionality -->
 <script>
   document.addEventListener("DOMContentLoaded", function () {
+    const pageNav = document.querySelector(".page__content .section-nav");
+    const pageHeader = document.querySelector(".page__header");
+
+    if (pageNav && pageHeader) {
+      pageHeader.parentNode.insertBefore(pageNav, pageHeader);
+    }
+
     // Targets your portfolio images, grid images, and standard page content images
     const images = document.querySelectorAll(".page__content img, .portfolio-media-img, .grid-item img");
     const lightbox = document.getElementById("sitewide-lightbox");
