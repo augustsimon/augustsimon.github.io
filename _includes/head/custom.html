@@ -74,11 +74,11 @@
 <!-- Lightbox Functionality -->
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const pageNav = document.querySelector(".page__content .section-nav");
-    const pageHeader = document.querySelector(".page__header");
+    const pageNav = document.querySelector(".section-nav");
+    const pageTitle = document.querySelector(".page__title");
 
-    if (pageNav && pageHeader) {
-      pageHeader.parentNode.insertBefore(pageNav, pageHeader);
+    if (pageNav && pageTitle) {
+      pageTitle.parentNode.insertBefore(pageNav, pageTitle);
     }
 
     // Targets your portfolio images, grid images, and standard page content images
